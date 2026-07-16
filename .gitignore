@@ -15,8 +15,6 @@ media/
 staticfiles/
 
 # Environment
-.env
-.env.*
 !.env.example
 firebase_credentials.json
 
@@ -47,3 +45,8 @@ temp_auto_push.bat
 temp_interactive_push.bat
 .gitignore
 docs
+
+# Frontend lives in its own separate git repo (HMZiyad/charisma-expert)
+charisma-expert/
+config.bat
+node_modules
